@@ -1,0 +1,4 @@
+0x00000000	unregister_ldd_driver	/home/xmzhang/dev/samples/books/ldd3/lddbus/lddbus	EXPORT_SYMBOL
+0x00000000	register_ldd_driver	/home/xmzhang/dev/samples/books/ldd3/lddbus/lddbus	EXPORT_SYMBOL
+0x00000000	register_ldd_device	/home/xmzhang/dev/samples/books/ldd3/lddbus/lddbus	EXPORT_SYMBOL
+0x00000000	unregister_ldd_device	/home/xmzhang/dev/samples/books/ldd3/lddbus/lddbus	EXPORT_SYMBOL

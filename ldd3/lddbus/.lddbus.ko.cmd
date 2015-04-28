@@ -1,0 +1,1 @@
+cmd_/home/xmzhang/dev/samples/books/ldd3/lddbus/lddbus.ko := arm-eabi-ld -EL -r  -T /home/xmzhang/dev/dev_code/kernel/mrvl-3.4/scripts/module-common.lds --build-id  -o /home/xmzhang/dev/samples/books/ldd3/lddbus/lddbus.ko /home/xmzhang/dev/samples/books/ldd3/lddbus/lddbus.o /home/xmzhang/dev/samples/books/ldd3/lddbus/lddbus.mod.o

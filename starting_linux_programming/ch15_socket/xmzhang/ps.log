@@ -1,0 +1,163 @@
+PID   USER     TIME   COMMAND
+    1 0          0:38 /init panic_debug
+    2 0          0:00 [kthreadd]
+    3 0          0:01 [ksoftirqd/0]
+    7 0          0:01 [migration/0]
+    8 0          0:20 [rcu_preempt]
+    9 0          0:00 [rcu_bh]
+   10 0          0:00 [rcu_sched]
+   11 0          0:00 [watchdog/0]
+   12 0          0:00 [watchdog/1]
+   13 0          0:00 [migration/1]
+   14 0          0:00 [ksoftirqd/1]
+   15 0          0:00 [kworker/1:0]
+   16 0          0:00 [kworker/1:0H]
+   17 0          0:00 [watchdog/2]
+   18 0          0:00 [migration/2]
+   19 0          0:00 [ksoftirqd/2]
+   21 0          0:00 [kworker/2:0H]
+   22 0          0:00 [watchdog/3]
+   23 0          0:02 [migration/3]
+   24 0          0:00 [ksoftirqd/3]
+   25 0          0:00 [kworker/3:0]
+   26 0          0:00 [kworker/3:0H]
+   27 0          0:00 [khelper]
+   28 0          0:00 [writeback]
+   29 0          0:00 [bioset]
+   30 0          0:00 [kblockd]
+   31 0          0:00 [khubd]
+   35 0          0:00 [irq/109-88pm800]
+   40 0          0:00 [irq/299-88pm830]
+   55 0          0:00 [devfreq_wq]
+   57 0          0:00 [cfg80211]
+   58 0          0:00 [rpciod]
+   59 0          0:00 [carveout_heap]
+   60 0          0:00 [system_heap]
+   61 0          0:00 [khungtaskd]
+   62 0          5:20 [kswapd0]
+   63 0          0:00 [ksmd]
+   64 0          0:00 [fsnotify_mark]
+   65 0          0:00 [nfsiod]
+   66 0          0:00 [crypto]
+   83 0          0:00 [kworker/u9:0]
+   84 0          0:00 [mmp_fb]
+   85 0          0:00 [mmp_fb_overlay]
+   86 0          0:00 [mv_otg_queue]
+   87 0          0:00 [uether]
+   88 0          0:00 [synaptics_wq]
+   99 0          0:00 [kworker/2:1]
+  112 0          0:00 [bat-88pm830]
+  113 0          0:00 [proximity_als]
+  114 0          0:00 [irq/164-d403b00]
+  115 0          0:00 [wdt_workqueue]
+  116 0          0:13 [cfinteractive]
+  117 0          0:00 [dynamic hotplug]
+  118 0          0:00 [sdhci-card]
+  119 0          0:00 [sdhci-card]
+  120 0          0:00 [sdhci-card]
+  121 0         15:23 [irq/380-inv_irq]
+  122 0          0:00 [binder]
+  124 0          0:00 [kworker/1:1]
+  126 0          0:00 [kworker/3:1]
+  128 0          0:00 [deferwq]
+  129 0          0:00 [modem_gadget_tx]
+  130 0          0:00 [diag_gadget_tx]
+  131 0          0:00 [f_mtp]
+  132 0          0:00 [file-storage]
+  133 0          0:00 [goodix_wq]
+  134 0          0:00 [rmi_det_workque]
+  135 0          0:00 [irq/411-synapti]
+  137 0          0:00 [kworker/2:2]
+  138 0          6:23 [mmcqd/0]
+  139 0          0:00 [mmcqd/0boot0]
+  140 0          0:00 [mmcqd/0boot1]
+  141 0          0:00 [mmcqd/0rpmb]
+  142 0          0:00 /sbin/ueventd
+  145 0          0:00 [jbd2/mmcblk0p8-]
+  146 0          0:00 [ext4-dio-unwrit]
+  147 0          0:00 [jbd2/mmcblk0p13]
+  148 0          0:00 [ext4-dio-unwrit]
+  150 0          0:16 [jbd2/mmcblk0p14]
+  151 0          0:00 [ext4-dio-unwrit]
+  152 0          0:00 [jbd2/mmcblk0p12]
+  153 0          0:00 [ext4-dio-unwrit]
+  155 0          0:00 [jbd2/mmcblk0p11]
+  156 0          0:00 [ext4-dio-unwrit]
+  157 0          0:00 [galcore workque]
+  158 0          0:01 [galcore daemon ]
+  159 0          0:00 [galcore daemon ]
+  160 0          0:00 [tzdd]
+  161 0          0:00 [tee-cb]
+  162 0          0:00 /system/bin/teec_sstd_ca /teesst
+  165 0          0:03 /sbin/healthd
+  166 1000       0:00 /system/bin/servicemanager
+  167 0          0:00 /system/bin/vold
+  169 0          0:00 /system/bin/netd
+  170 0          0:00 /system/bin/debuggerd
+  171 0          0:00 [kworker/1:1H]
+  172 1001       0:01 /system/bin/rild
+  173 1000       0:10 /system/bin/surfaceflinger
+  174 0          0:04 zygote /bin/app_process -Xzygote /system/bin --zygote --start-system-server
+  175 1019       0:00 /system/bin/drmserver
+  176 1013       0:04 /system/bin/mediaserver
+  177 1012       0:00 /system/bin/installd
+  178 1017       0:00 /system/bin/keystore /data/misc/keystore
+  179 1000       0:00 /system/bin/FMRadioServer
+  180 1027       0:00 /system/bin/MarvellNfcExtensionsDaemon
+  181 1000       0:00 /system/bin/FileMonitorService
+  182 1000       0:00 {Binder_2} /system/bin/phservice
+  183 1010       0:00 /system/bin/simal
+  186 0          0:00 [kworker/2:1H]
+  196 1001       0:00 /system/bin/rild -s -- -m SIM2CP
+  198 1023       0:00 /system/bin/sdcard -u 1023 -g 1023 -l /data/media /mnt/shell/emulated
+  200 1000       0:00 /system/bin/MarvellWirelessDaemon
+  214 0          0:00 [kworker/3:1H]
+  236 2000       0:00 /system/bin/sh
+  239 0          0:00 /system/bin/pppmodem
+  541 0          0:00 [seh_rx_wq]
+  550 0          0:00 [cp_main]
+  551 0          0:00 [drb_wq 0]
+  562 0          0:00 [audio_rcv_task]
+  567 1000       0:00 /system/bin/eeh -M yes
+  569 1000       0:00 /system/bin/nvm
+  574 1000       0:00 /system/bin/diag
+  578 1000       0:03 /system/bin/atcmdsrv
+  581 0          0:14 /system/bin/gpslpm_srv
+  618 0          0:00 [ciCsdRcvDataTas]
+  620 0          0:00 [ciImsRcvDataTas]
+  631 0          0:13 /sbin/adbd
+  682 1000      13:28 system_server
+  907 10007      0:29 {ndroid.systemui} com.android.systemui
+ 1031 10036      0:00 {putmethod.latin} com.android.inputmethod.latin
+ 1070 10042      0:00 {ndroid.location} com.marvell.android.location
+ 1089 1001       0:05 {m.android.phone} com.android.phone
+ 1109 1027       0:00 com.android.nfc
+ 1130 1000       0:13 {vell.ccimanager} com.marvell.ccimanager
+ 1143 1000       0:00 {.marvell.eprobe} com.marvell.eprobe
+ 1246 10008      0:22 {ndroid.launcher} com.android.launcher
+ 1434 1000       0:00 {droid.deskclock} com.android.deskclock
+ 1464 1001       0:00 {.orangelabs.rcs} com.orangelabs.rcs
+ 1481 1002       0:00 {droid.bluetooth} com.android.bluetooth
+ 1677 10024      0:00 {alnotifyservice} com.android.contextualnotifyservice
+ 1710 10033      0:00 {droid.gallery3d} com.android.gallery3d
+ 1736 1000       0:00 {ell.powergadget} com.marvell.powergadget
+ 1788 1000       0:00 {idisplay.source} com.android.wifidisplay.source
+ 1828 10002      0:00 {d.process.acore} android.process.acore
+ 2015 10003      0:00 {id.defcontainer} com.android.defcontainer
+ 2032 10027      0:00 {ngs.android.pop} com.estrongs.android.pop
+ 2065 10047      0:00 com.svox.pico
+ 2560 10020      0:00 {ndroid.calendar} com.android.calendar
+ 2579 10001      0:00 {viders.calendar} com.android.providers.calendar
+ 4941 0          0:00 sh
+ 5255 0          0:00 [kworker/0:1H]
+ 5594 10005      0:00 {d.process.media} android.process.media
+ 6724 0          0:00 [kworker/u9:2]
+ 6725 0          0:00 [kworker/0:2]
+ 7034 0          0:00 [kworker/0:1]
+ 7107 0          0:00 [kworker/u8:0]
+ 7505 0          0:00 [kworker/0:0H]
+ 7841 0          0:00 [kworker/u8:2]
+ 7942 0          0:00 [kworker/0:2H]
+ 7984 0          0:00 [kworker/0:0]
+ 8077 0          0:00 [kworker/u8:1]
+ 8100 0          0:00 busybox ps
